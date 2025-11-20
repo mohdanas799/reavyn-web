@@ -202,21 +202,21 @@ export default function PortfolioClient() {
                 {/* <p className="ml-8">{projects[current].result}</p> */}
                 <ul className="space-y-2 text-gray-800">
                   <li className="flex items-start ml-8 mt-2 gap-2">
-                    <FaCheckCircle className="text-black mt-1  min-w-5"  />
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>
                       Delivered a fully responsive website with a modern UI/UX.
                     </span>
                   </li>
                   <li className="flex items-start ml-8 mt-2 gap-2">
-                    <FaCheckCircle className="text-black mt-1  min-w-5"  />
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>Improved usability and faster page load times.</span>
                   </li>
                   <li className="flex items-start ml-8 mt-2 gap-2">
-                    <FaCheckCircle className="text-black mt-1  min-w-5"  />
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>Clear presentation of mission and services.</span>
                   </li>
                   <li className="flex items-start ml-8 mt-2 gap-2">
-                    <FaCheckCircle className="text-black mt-1  min-w-5"  />
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>Enhanced brand credibility and online presence.</span>
                   </li>
                 </ul>
@@ -356,27 +356,247 @@ export default function PortfolioClient() {
                   <li className="flex items-start ml-8 mt-2 gap-2">
                     <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>
-                      Delivered a fast, responsive website optimized for patients and partners.
+                      Delivered a fast, responsive website optimized for
+                      patients and partners.
                     </span>
                   </li>
                   <li className="flex items-start ml-8 mt-2 gap-2">
                     <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>
-                     Clear service presentation leading to improved patient inquiries.
+                      Clear service presentation leading to improved patient
+                      inquiries.
+                    </span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>Strengthened online credibility and trust.</span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>
+                      Enhanced client visibility and user engagement online.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#8EADD5]  max-md:h-[84rem] mt-10 text-black rounded-xl shadow-lg p-6 flex flex-col md:flex-row gap-6">
+            <div className="absolute ">
+              <h3 className="text-3xl max-md:text-2xl font-semibold">
+                LaunchNest
+              </h3>
+              <p className="text-gray-600 mb-4 max-md:w-75">
+                Client Industry: SaaS / Startup Platform
+              </p>
+            </div>
+            <div className="absolute ml-[50rem] w-75 max-md:relative max-md:ml-0 max-md:w-50 max-md:mt-24 ">
+              <img src="https://i.ibb.co/5qX9whG/Frame-192.png" alt="" />
+            </div>
+            {/* Image */}
+            <div className="flex-shrink-0 mt-20 max-md:mt-2">
+              <img
+                src="https://i.ibb.co/6GWvX3J/Screenshot-2025-11-20-181855.png"
+                alt=""
+                className="rounded-lg shadow-md w-[418px] h-[502px] max-md:w-[425px]  max-md:h-[340px]"
+              />
+            </div>
+
+            {/* Content */}
+            <div className="flex  mt-20  max-md:mt-3">
+              <div className="reative">
+                <h4 className="font-semibold mb-1 flex  max-md: gap-2 text-2xl">
+                  <Target /> Project Description
+                </h4>
+                <p className="text-gray-700 mb-3 ml-8 w-[230px] text-md">
+                  LaunchNest is a modern SaaS landing page built to help
+                  startups showcase their product with a clean, high-converting
+                  design. The client wanted a fast, responsive, and visually
+                  appealing website with smooth animations and clear messaging.
+                </p>
+
+                <h4 className="font-semibold mb-1 flex gap-2 text-2xl">
+                  <Crosshair /> Objective
+                </h4>
+                <p className="text-gray-700 mb-3 ml-8 w-[230px] text-md">
+                  Create a responsive, minimal, and user-friendly landing page
+                  Ensure smooth navigation, strong brand identity, and optimized
+                  performance.
+                </p>
+              </div>
+              <div className="ml-5  max-md:absolute  max-md:mt-[30rem]  max-md:w-[280px]  max-md:-m-1">
+                <h4 className="font-semibold mb-2 flex text-2xl gap-2">
+                  <Box /> Result
+                </h4>
+                {/* <p className="ml-8">{projects[current].result}</p> */}
+                <ul className="space-y-2 text-gray-800">
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>
+                      Delivered a fully responsive website with a modern SaaS
+                      UI.
+                    </span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>Improved speed, usability, and user engagement.</span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>
+                      Clear presentation of product features and value.
+                    </span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>Enhanced brand credibility and online presence.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#D4FFE6] max-md:h-[85rem] mt-10 text-black rounded-xl shadow-lg p-6 flex flex-col md:flex-row gap-6">
+            <div className="absolute ">
+              <h3 className="text-3xl max-md:text-2xl font-semibold">
+                Socialable
+              </h3>
+              <p className="text-gray-600 mb-4 max-md:w-75">
+                Client Industry: Social Media / Community Platform
+              </p>
+            </div>
+            <div className="absolute ml-[50rem] w-75 max-md:relative max-md:ml-0 max-md:w-50 max-md:mt-20 ">
+              <img src="https://i.ibb.co/5qX9whG/Frame-192.png" alt="" />
+            </div>
+            {/* Image */}
+            <div className="flex-shrink-0 mt-20 max-md:mt-2">
+              <img
+                src="https://i.ibb.co/bjPn9mkw/Screenshot-2025-11-20-182115.png"
+                alt=""
+                className="rounded-lg shadow-md w-[418px] h-[502px] max-md:w-[425px]  max-md:h-[340px]"
+              />
+            </div>
+
+            {/* Content */}
+            <div className="flex  mt-20  max-md:mt-1">
+              <div className="reative">
+                <h4 className="font-semibold mb-1 flex  max-md: gap-2 text-2xl">
+                  <Target /> Project Description
+                </h4>
+                <p className="text-gray-700 mb-3 ml-8 w-[230px] text-md">
+                  Socialable is a dynamic community platform designed for
+                  engaging social interaction. The client wanted a modern,
+                  responsive web app with intuitive UI and seamless performance.
+                </p>
+
+                <h4 className="font-semibold mb-1 flex gap-2 text-2xl">
+                  <Crosshair /> Objective
+                </h4>
+                <p className="text-gray-700 mb-3 ml-8 w-[230px] text-md">
+                  Build a responsive, user-centric platform with strong
+                  branding, smooth navigation across devices, and optimized load
+                  times.
+                </p>
+              </div>
+              <div className="ml-5  max-md:absolute  max-md:mt-[30rem]  max-md:w-[280px]  max-md:-m-1">
+                <h4 className="font-semibold mb-2 flex text-2xl gap-2">
+                  <Box /> Result
+                </h4>
+                <ul className="space-y-2 text-gray-800">
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>
+                      Successfully delivered a fully responsive web app with
+                      clean, modern UI.
                     </span>
                   </li>
                   <li className="flex items-start ml-8 mt-2 gap-2">
                     <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>
-                      Strengthened online credibility and trust.
+                      Clear presentation of community features and brand
+                      identity.
                     </span>
                   </li>
                   <li className="flex items-start ml-8 mt-2 gap-2">
                     <FaCheckCircle className="text-black mt-1  min-w-5" />
                     <span>
-                     Enhanced client visibility and user engagement online.
+                      Enhanced user engagement with intuitive interactions and
+                      fast performance.
                     </span>
-                  </li>                
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#FBBEF8]  max-md:h-[90rem] mt-10 text-black rounded-xl shadow-lg p-6 flex flex-col md:flex-row gap-6">
+            <div className="absolute ">
+              <h3 className="text-3xl max-md:text-2xl font-semibold">
+                SaaS New Template
+              </h3>
+              <p className="text-gray-600 mb-4 max-md:w-75">
+                Client Industry: SaaS / Digital Services
+              </p>
+            </div>
+            <div className="absolute ml-[50rem] w-75 max-md:relative max-md:ml-0 max-md:w-50 max-md:mt-24 ">
+              <img src="https://i.ibb.co/5qX9whG/Frame-192.png" alt="" />
+            </div>
+            {/* Image */}
+            <div className="flex-shrink-0 mt-20 max-md:mt-2">
+              <img
+                src="https://i.ibb.co/vx9g7LhC/Screenshot-2025-11-20-182502.png"
+                alt=""
+                className="rounded-lg shadow-md w-[418px] h-[502px] max-md:w-[425px]  max-md:h-[340px]"
+              />
+            </div>
+
+            {/* Content */}
+            <div className="flex  mt-20  max-md:mt-3">
+              <div className="reative">
+                <h4 className="font-semibold mb-1 flex  max-md: gap-2 text-2xl">
+                  <Target /> Project Description
+                </h4>
+                <p className="text-gray-700 mb-3 ml-8 w-[230px] text-md">
+                  SaaS New Template is a sleek SaaS website template crafted to
+                  deliver a polished brand presence. The client aimed for a
+                  modern, responsive site showcasing services, features, and
+                  pricing with clarity and style.
+                </p>
+
+                <h4 className="font-semibold mb-1 flex gap-2 text-2xl">
+                  <Crosshair /> Objective
+                </h4>
+                <p className="text-gray-700 mb-3 ml-8 w-[230px] text-md">
+                  Develop a fully responsive, brand-aligned landing page with
+                  clear messaging, intuitive navigation, and optimized
+                  performance for all devices.
+                </p>
+              </div>
+              <div className="ml-5  max-md:absolute  max-md:mt-[33rem]  max-md:w-[280px]  max-md:-m-1">
+                <h4 className="font-semibold mb-2 flex text-2xl gap-2">
+                  <Box /> Result
+                </h4>
+                <ul className="space-y-2 text-gray-800">
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>
+                      Delivered a high-quality SaaS template with modern UI.
+                    </span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>
+                      Smooth cross-device experience and fast loading.
+                    </span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>
+                      Clear feature, service and pricing presentation.
+                    </span>
+                  </li>
+                  <li className="flex items-start ml-8 mt-2 gap-2">
+                    <FaCheckCircle className="text-black mt-1  min-w-5" />
+                    <span>Strengthened brand identity and online appeal.</span>
+                  </li>
                 </ul>
               </div>
             </div>
