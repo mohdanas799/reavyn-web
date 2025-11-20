@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -23,7 +24,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 w-[206px] h-[62px] text-xl font-bold">
-          <img src="https://i.ibb.co/GzNq6bV/Reavyn.png" alt=""className="px-2 py-1" />          
+          <img src="/Reavyn.svg" alt=""className="px-2 py-1" />          
         </Link>
 
         {/* Desktop Menu */}

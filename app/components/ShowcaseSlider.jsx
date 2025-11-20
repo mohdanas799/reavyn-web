@@ -58,6 +58,59 @@ const projects = [
     // result:
     //   "This project successfully transformed the client’s e-commerce platform into a scalable, user-friendly solution, driving significant growth and efficiency during high-demand period.",
   },
+  {
+    title: "LaunchNest",
+    industry: "SaaS / Startup Platform",
+    description:
+      "LaunchNest is a modern SaaS landing page built to help startups showcase their product with a clean, high-converting design. The client wanted a fast, responsive, and visually appealing website with smooth animations and clear messaging.",
+    objective:
+      "Create a responsive, minimal, and user-friendly landing page Ensure smooth navigation, strong brand identity, and optimized performance.",
+    results: [
+      "Delivered a fully responsive website with a modern SaaS UI.",
+      "Improved speed, usability, and user engagement.",
+      "Clear presentation of product features and value.",
+      "Enhanced brand credibility and online presence.",
+    ],
+    image: "https://i.ibb.co/6GWvX3J/Screenshot-2025-11-20-181855.png",
+    bgColor: "bg-[rgb(142,173,213)]",
+    // result:
+    //   "This project successfully transformed the client’s e-commerce platform into a scalable, user-friendly solution, driving significant growth and efficiency during high-demand period.",
+  },
+  {
+    title: "Socialable",
+    industry: "Social Media / Community Platform",
+    description:
+      "Socialable is a dynamic community platform designed for engaging social interaction. The client wanted a modern, responsive web app with intuitive UI and seamless performance.",
+    objective:
+      "Build a responsive, user-centric platform with strong branding, smooth navigation across devices, and optimized load times.",
+    results: [
+      "Successfully delivered a fully responsive web app with clean, modern UI.",
+      "Enhanced user engagement with intuitive interactions and fast performance.",
+      "Clear presentation of community features and brand identity.",
+    ],
+    image: "https://i.ibb.co/bjPn9mkw/Screenshot-2025-11-20-182115.png",
+    bgColor: "bg-[rgb(212,255,230)]",
+    // result:
+    //   "This project successfully transformed the client’s e-commerce platform into a scalable, user-friendly solution, driving significant growth and efficiency during high-demand period.",
+  },
+  {
+    title: "SaaS New Template",
+    industry: "SaaS / Digital Services",
+    description:
+      "SaaS New Template is a sleek SaaS website template crafted to deliver a polished brand presence. The client aimed for a modern, responsive site showcasing services, features, and pricing with clarity and style.",
+    objective:
+      "Develop a fully responsive, brand-aligned landing page with clear messaging, intuitive navigation, and optimized performance for all devices.",
+    results: [
+      "Delivered a high-quality SaaS template with modern UI.",
+      "Smooth cross-device experience and fast loading.",
+      "Clear feature, service and pricing presentation.",
+      "Strengthened brand identity and online appeal.",
+    ],
+    image: "https://i.ibb.co/vx9g7LhC/Screenshot-2025-11-20-182502.png",
+    bgColor: "bg-[hsl(303,88%,86%)]",
+    // result:
+    //   "This project successfully transformed the client’s e-commerce platform into a scalable, user-friendly solution, driving significant growth and efficiency during high-demand period.",
+  },
 ];
 
 export default function ShowcaseSection() {
@@ -117,13 +170,13 @@ export default function ShowcaseSection() {
           {/* Content */}
           <div className="flex  mt-20 max-md:mt-1 max-md:overflow-y-auto max-md:overflow-x-hidden max-md:h-full max-md:max-h-[360px] max-md:-p-16 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
             {/* Image */}
-          <div className="flex-shrink-0 mt-20 max-md:flex hidden max-md:mt-2">
-            <img
-              src={projects[current].image}
-              alt={projects[current].title}
-              className="rounded-lg shadow-md w-[418px] h-[502px] max-md:w-[275px]  max-md:h-[440px]"
-            />
-          </div>
+            <div className="flex-shrink-0 mt-20 max-md:flex hidden max-md:mt-2">
+              <img
+                src={projects[current].image}
+                alt={projects[current].title}
+                className="rounded-lg shadow-md w-[418px] h-[502px] max-md:w-[275px]  max-md:h-[440px]"
+              />
+            </div>
             <div className="reative max-md:absolte max-md:-ml-[273px] max-md:mt-[30rem]">
               <h4 className="font-semibold mb-1 flex  max-md: gap-2 text-2xl">
                 <Target className="mt-1" /> Project Description
