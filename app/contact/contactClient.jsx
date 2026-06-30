@@ -296,7 +296,7 @@ const ContactClient = () => {
               >
                 razi@reavyn.com
               </a>{" "}
-              | +91-8188988301
+              | +91-8960668333
             </p>
             <p>
               <span className="font-semibold text-gray-900">Address</span> — New
