@@ -66,7 +66,7 @@ export default function ContactPage() {
             </p>
             <p>
               <span className="font-semibold">Contact</span> —
-              razi@reavyn.com | +91-8188988301
+              razi@reavyn.com | +91-8960668333
             </p>
             <p>
               <span className="font-semibold">Address</span> — New Ashok Nagar,
